@@ -1,0 +1,60 @@
+{
+    "signal": [
+        {
+            "name": "TX_CLK_i",
+            "wave": "0.hlhlhlhlhlhlhlhl.."
+        },
+        {
+            "name": "TX_DATA",
+            "wave": "x.2.2.2.2.2.2.2.2.x.",
+            "data": [
+                "MSB",
+                "6",
+                "5",
+                "4",
+                "3",
+                "2",
+                "1",
+                "LSB"
+            ]
+        },
+        {
+            "name": "TX_STROBE",
+            "wave": "l.l.l.l.l.l.l.l.l.."
+        },
+        {
+            "name": "RX_STROBE",
+            "wave": "l..l.l.l.l.l.l.l.l..."
+        },
+        {
+            "name": "TX_CLK",
+            "wave": "l.hlhlhlhlhlhlhlhl.."
+        },
+        {
+            "name": "TX_CLK",
+            "wave": "h.lhlhlhlhlhlhlhlh.."
+        },
+        {
+            "name": "TX_CLK",
+            "wave": "h..lhlhlhlhlhlhlhlh."
+        },
+        {
+            "name": "TX_CLK",
+            "wave": "l..hlhlhlhlhlhlhlhl."
+        },
+        {
+            "name": "FSM",
+            "wave": "x2222222222222222x.",
+            "data": [
+                "S0",
+                "S1",
+                "S2",
+                "S0",
+                "S0",
+                "S0",
+                "S0",
+                "LSB"
+            ]
+        }
+    ]
+}
